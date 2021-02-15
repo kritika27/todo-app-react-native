@@ -13,9 +13,9 @@ import AddTodo from "./components/addTodo";
 export default function App() {
   const [text, setText] = useState("");
   const [todos, setTodos] = useState([
-    { text: "Buy coffee", key: "1", complete: false },
-    { text: "Learn javaScript", key: "2", complete: false },
-    { text: "Go to market", key: "3", complete: false },
+    { text: "Buy coffee", key: "1" },
+    { text: "Learn javaScript", key: "2" },
+    { text: "Go to market", key: "3" },
   ]);
 
   const pressDelete = (key) => {
